@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns="http://www.iho.int/S130/2.0"
+<xs:schema xmlns="http://www.iho.int/S122/2.0"
            xmlns:S100="http://www.iho.int/s100gml/5.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:xlink="http://www.w3.org/1999/xlink"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.iho.int/S130/2.0"
+           targetNamespace="http://www.iho.int/S122/2.0"
            elementFormDefault="qualified"
            version="2.0.0-20251104">
    <xs:import namespace="http://www.opengis.net/gml/3.2"
@@ -48,6 +48,7 @@
    <!-- producer: pointOfContact International Hydrographic Organization 4b quai Antoine 1er Monaco info@iho.int https://iho.int/ -->
    <!-- S100_FC_DefinitionSources: IHO GI Registry http://registry.iho.int -->
    <!-- Schema generated 2025-11-06T21:02:21-07:00 by Raphael Malyankar from catalogue file 122_FC_2.0.0.20251104.xml -->
+   <!-- Manually updated 2025-11-07 to correct S-number to S122 -->
    <xs:simpleType name="codelistTypeType">
       <xs:annotation>
          <xs:documentation>An S-100 codelist.</xs:documentation>
