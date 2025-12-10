@@ -11,9 +11,6 @@ Changes to this Specification are coordinated by IHO NIPWG. New editions will be
 |===
 |Version Number |Date |Approved By |Purpose
 
-|1.0.0
-|April 2012
-|TSMAD
-|Approved edition of S-122
+|1.0.0 |2019 |NIPWG |Approved edition of S-122
 
 |===
