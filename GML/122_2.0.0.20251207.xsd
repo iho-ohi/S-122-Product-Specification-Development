@@ -48,7 +48,7 @@
    <!-- productId: S-122 -->
    <!-- producer: pointOfContact International Hydrographic Organization 4b quai Antoine 1er Monaco info@iho.int https://iho.int/ -->
    <!-- S100_FC_DefinitionSources: IHO GI Registry http://registry.iho.int -->
-   <!-- Schema generated 2025-12-07T15:22:26-07:00 by Raphael Malyankar from catalogue file 122_FC_2.0.0.20251207.xml -->
+   <!-- Schema generated 2025-12-10T16:50:50-07:00 by Raphael Malyankar from catalogue file 122_FC_2.0.0.20251207.xml -->
    <xs:simpleType name="codelistTypeType">
       <xs:annotation>
          <xs:documentation>An S-100 codelist.</xs:documentation>
@@ -8156,10 +8156,6 @@
                            maxOccurs="1"/>
                <xs:element name="periodicDateRange"
                            type="periodicDateRangeType"
-                           minOccurs="0"
-                           maxOccurs="unbounded"/>
-               <xs:element name="rxNCode"
-                           type="rxNCodeType"
                            minOccurs="0"
                            maxOccurs="unbounded"/>
                <xs:element name="graphic"
