@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?S100lineage source="S52Preslib4.0" format="S100Ed2" version="0.1" creationDate="2015 - 03 - 13"?>
+<?S100Meta name="LineStyle.xml" exposition=""?>
+<lineStyle offset="0">
+  <pen width="0.32">
+    <color>DEPIT</color>
+  </pen>
+  <intervalLength>10</intervalLength>
+  <symbol reference="MPA_POINT">
+    <position>5</position>
+  </symbol>
+</lineStyle>
