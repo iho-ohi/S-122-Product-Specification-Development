@@ -14,43 +14,33 @@
     </colorProfile>
   </colorProfiles>
   <symbols>
-    <symbol id="MPA_POINT.svg">
+    <symbol id="MPA_POINT">
       <description>
         <language>en</language>
-        <name>MPA_POINT.svg</name>
+        <name>MPA_POINT</name>
         <description />
       </description>
       <fileName>MPA_POINT.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="MPA_INFARE.svg">
+    <symbol id="MPA_INFARE">
       <description>
         <language>en</language>
-        <name>MPA_INFARE.svg</name>
+        <name>MPA_INFARE</name>
         <description />
       </description>
       <fileName>MPA_INFARE.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="MPA_VTS.svg">
+    <symbol id="MPA_VTS">
       <description>
         <language>en</language>
-        <name>MPA_VTS.svg</name>
+        <name>MPA_VTS</name>
         <description />
       </description>
       <fileName>MPA_VTS.svg</fileName>
-      <fileType>Symbol</fileType>
-      <fileFormat>SVG</fileFormat>
-    </symbol>
-	<symbol id="2">
-      <description>
-        <language>eng</language>
-        <name>QUESMRK1</name>
-        <description>object which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library</description>
-      </description>
-      <fileName>QUESMRK1.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
@@ -64,32 +54,52 @@
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
+	<symbol id="2">
+      <description>
+        <language>eng</language>
+        <name>QUESMRK1</name>
+        <description>object which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library</description>
+      </description>
+      <fileName>QUESMRK1.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
   </symbols>
-  <styleSheets />
-  <lineStyles>
-    <lineStyle id="LineStyle.xml">
+  <styleSheets>
+      <styleSheet id="svgStyle.css">
       <description>
-        <language>en</language>
-        <name>LineStyle.xml</name>
-        <description />
+        <name>Day</name>
+        <description>CSS file for day palette</description>
+        <language>eng</language>
       </description>
-      <fileName>LineStyle.xml</fileName>
-      <fileType>LineStyle</fileType>
-      <fileFormat>XML</fileFormat>
-    </lineStyle>
-  </lineStyles>
-  <areaFills>
-    <areaFill id="Pattern.xml">
+      <fileName>svgStyle.css.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>CSS</fileFormat>
+    </styleSheet>
+  
+    <styleSheet id="duskSvgStyle">
       <description>
-        <language>en</language>
-        <name>Pattern.xml</name>
-        <description />
+        <name>Dusk</name>
+        <description>CSS file for dusk palette</description>
+        <language>eng</language>
       </description>
-      <fileName>Pattern.xml</fileName>
-      <fileType>AreaFill</fileType>
-      <fileFormat>XML</fileFormat>
-    </areaFill>
-  </areaFills>
+      <fileName>duskSvgStyle.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>CSS</fileFormat>
+    </styleSheet>
+    <styleSheet id="nightSvgStyle">
+      <description>
+        <name>Night</name>
+        <description>CSS file for night palette</description>
+        <language>eng</language>
+      </description>
+      <fileName>nightSvgStyle.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>CSS</fileFormat>
+    </styleSheet>
+  </styleSheets>
+  <lineStyles />
+  <areaFills />
   <fonts />
   <viewingGroups>
     <viewingGroup id="1">
@@ -189,7 +199,7 @@
         <description>Information Area</description>
         <language>en</language>
       </description>
-      <fileName>InformationArea.xsl</fileName>
+      <fileName>InformationArea</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -197,7 +207,7 @@
     <ruleFile id="VesselTrafficServiceArea.xsl">
       <description>
         <language>en</language>
-        <name>VesselTrafficServiceArea.xsl</name>
+        <name>VesselTrafficServiceArea</name>
         <description>Vessel Traffic Service Area</description>
       </description>
       <fileName>VesselTrafficServiceArea.xsl</fileName>
@@ -208,10 +218,32 @@
     <ruleFile id="MarineProtectedArea.xsl">
       <description>
         <language>en</language>
-        <name>MarineProtectedArea.xsl</name>
+        <name>MarineProtectedArea</name>
         <description>Marine Protected Area</description>
       </description>
       <fileName>MarineProtectedArea.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+	<ruleFile id="RestrictedArea.xsl">
+      <description>
+        <language>en</language>
+        <name>RestrictedArea</name>
+        <description>Restricted Area</description>
+      </description>
+      <fileName>RestrictedArea.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>	
+	<ruleFile id="TextPlacement.xsl">
+      <description>
+        <language>en</language>
+        <name>TextPlacement</name>
+        <description>Text Placement</description>
+      </description>
+      <fileName>TextPlacement.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>

@@ -6,7 +6,7 @@
       <featureReference>
         <xsl:value-of select="@id"/>
       </featureReference>
-      <viewingGroup>12210</viewingGroup>
+      <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
       <symbol reference="MPA_INFARE"/>
@@ -15,7 +15,7 @@
       <featureReference>
         <xsl:value-of select="@id"/>
       </featureReference>
-      <viewingGroup>12210</viewingGroup>
+      <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
       <xsl:call-template name="simpleLineStyle">

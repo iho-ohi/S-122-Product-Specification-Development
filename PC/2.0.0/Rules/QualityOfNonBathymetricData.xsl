@@ -7,7 +7,7 @@
          <featureReference>
             <xsl:value-of select="@id"/>
          </featureReference>
-         <viewingGroup>0</viewingGroup>
+         <viewingGroup>31010</viewingGroup>
          <displayPlane>UNDERRADAR</displayPlane>
          <drawingPriority>0</drawingPriority>
       </nullInstruction>

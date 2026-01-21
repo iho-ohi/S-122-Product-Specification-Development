@@ -16,7 +16,9 @@
   <xsl:include href="VesselTrafficServiceArea.xsl"/>
   <xsl:include href="MarineProtectedArea.xsl"/>
   <xsl:include href="RestrictedArea.xsl"/>
+  <xsl:include href="TextPlacement.xsl"/>
   <xsl:include href="QualityOfNonBathymetricData.xsl"/>
+  
 
   <!--Include templates/rules for: csps-->
 
