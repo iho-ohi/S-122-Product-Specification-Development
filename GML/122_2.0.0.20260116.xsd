@@ -1858,7 +1858,7 @@
          </xs:enumeration>
       </xs:restriction>
    </xs:simpleType>
-   <xs:complexType name="PermissionType_categoryOfRelationshipType">
+   <!--<xs:complexType name="PermissionType_categoryOfRelationshipType">
       <xs:annotation>
          <xs:documentation>Restricted values of categoryOfRelationship in PermissionType</xs:documentation>
       </xs:annotation>
@@ -1869,8 +1869,8 @@
                           use="required"/>
          </xs:extension>
       </xs:simpleContent>
-   </xs:complexType>
-   <xs:simpleType name="PermissionType_categoryOfRelationshipLabel">
+   </xs:complexType>-->
+   <!--<xs:simpleType name="PermissionType_categoryOfRelationshipLabel">
       <xs:annotation>
          <xs:documentation>Custom enum: PermissionType/categoryOfRelationship</xs:documentation>
       </xs:annotation>
@@ -1883,8 +1883,8 @@
          <xs:enumeration value="Not Required"/>
          <xs:enumeration value="Exclusively Permitted"/>
       </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="PermissionType_categoryOfRelationshipCode">
+   </xs:simpleType>-->
+   <!--<xs:simpleType name="PermissionType_categoryOfRelationshipCode">
       <xs:annotation>
          <xs:documentation>Custom enum: PermissionType/categoryOfRelationship</xs:documentation>
       </xs:annotation>
@@ -1925,7 +1925,7 @@
             </xs:annotation>
          </xs:enumeration>
       </xs:restriction>
-   </xs:simpleType>
+   </xs:simpleType>-->
    <xs:complexType name="InformationArea_categoryOfRelationshipType">
       <xs:annotation>
          <xs:documentation>Restricted values of categoryOfRelationship in InformationArea</xs:documentation>
@@ -3476,7 +3476,7 @@
          </xs:enumeration>
       </xs:restriction>
    </xs:simpleType>
-   <xs:complexType name="InclusionType_membershipType">
+   <!--<xs:complexType name="InclusionType_membershipType">
       <xs:annotation>
          <xs:documentation>Restricted values of membership in InclusionType</xs:documentation>
       </xs:annotation>
@@ -3485,8 +3485,8 @@
             <xs:attribute name="code" type="InclusionType_membershipCode" use="required"/>
          </xs:extension>
       </xs:simpleContent>
-   </xs:complexType>
-   <xs:simpleType name="InclusionType_membershipLabel">
+   </xs:complexType>-->
+   <!--<xs:simpleType name="InclusionType_membershipLabel">
       <xs:annotation>
          <xs:documentation>Custom enum: InclusionType/membership</xs:documentation>
       </xs:annotation>
@@ -3494,8 +3494,8 @@
          <xs:enumeration value="Included"/>
          <xs:enumeration value="Excluded"/>
       </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="InclusionType_membershipCode">
+   </xs:simpleType>-->
+   <!--<xs:simpleType name="InclusionType_membershipCode">
       <xs:annotation>
          <xs:documentation>Custom enum: InclusionType/membership</xs:documentation>
       </xs:annotation>
@@ -3511,7 +3511,7 @@
             </xs:annotation>
          </xs:enumeration>
       </xs:restriction>
-   </xs:simpleType>
+   </xs:simpleType>-->
    <xs:simpleType name="minimumDisplayScaleType">
       <xs:annotation>
          <xs:documentation>The smallest intended viewing scale for the data.</xs:documentation>
