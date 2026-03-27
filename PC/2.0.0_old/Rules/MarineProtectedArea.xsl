@@ -24,7 +24,7 @@
       <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
-      <symbol reference="MPAPoint"/>
+      <symbol reference="MPA_POINT"/>
     </pointInstruction>
     <lineInstruction>
       <featureReference>

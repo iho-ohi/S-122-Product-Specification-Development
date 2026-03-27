@@ -1,85 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pc:portrayalCatalog xmlns:pc="http://www.iho.int/S100PortrayalCatalog/5.2" xmlns:xsl="http://www.w3.org/2001/XMLSchema" productId="S-122" version="2.0.0">
-
-  <pixmaps/>
-
+<?xml version="1.0" encoding="iso-8859-1"?>
+<portrayalCatalog xmlns:xsl="http://www.w3.org/2001/XMLSchema" productId="S-122" version="2.0.0">
+  <pixmaps />
   <colorProfiles>
     <colorProfile id="1">
       <description>
+        <language>en</language>
         <name>Color Profile</name>
         <description>Color Profile</description>
-        <language>eng</language>
       </description>
       <fileName>colorProfile.xml</fileName>
       <fileType>ColorProfile</fileType>
       <fileFormat>XML</fileFormat>
     </colorProfile>
   </colorProfiles>
-
   <symbols>
-    <symbol id="MPAPoint">
+    <symbol id="MPA_POINT">
       <description>
-        <name>MPAPoint</name>
-        <description></description>
-        <language>eng</language>
+        <language>en</language>
+        <name>MPA_POINT</name>
+        <description />
       </description>
-      <fileName>MPAPoint.svg</fileName>
+      <fileName>MPA_POINT.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="MPAInfare">
+    <symbol id="MPA_INFARE">
       <description>
-        <name>MPAInfare</name>
-        <description></description>
-        <language>eng</language>
+        <language>en</language>
+        <name>MPA_INFARE</name>
+        <description />
       </description>
-      <fileName>MPAInfare.svg</fileName>
+      <fileName>MPA_INFARE.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="MPAVTS">
+    <symbol id="MPA_VTS">
       <description>
-        <name>MPAVTS</name>
-        <description></description>
-        <language>eng</language>
+        <language>en</language>
+        <name>MPA_VTS</name>
+        <description />
       </description>
-      <fileName>MPAVTS.svg</fileName>
+      <fileName>MPA_VTS.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="USRPNT01">
+    <symbol id="1">
       <description>
+        <language>en</language>
         <name>Small Circle</name>
         <description>Small circle symbol for point drawing instruction.</description>
-        <language>eng</language>
       </description>
       <fileName>USRPNT01.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
-    <symbol id="QUESMRK1">
+	<symbol id="2">
       <description>
+        <language>eng</language>
         <name>QUESMRK1</name>
         <description>object which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library</description>
-        <language>eng</language>
       </description>
       <fileName>QUESMRK1.svg</fileName>
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
   </symbols>
-
   <styleSheets>
-    <styleSheet id="svgStyle">
+      <styleSheet id="svgStyle.css">
       <description>
         <name>Day</name>
         <description>CSS file for day palette</description>
         <language>eng</language>
       </description>
-      <fileName>svgStyle.css</fileName>
+      <fileName>svgStyle.css.css</fileName>
       <fileType>StyleSheet</fileType>
       <fileFormat>CSS</fileFormat>
     </styleSheet>
+  
     <styleSheet id="duskSvgStyle">
       <description>
         <name>Dusk</name>
@@ -101,171 +98,150 @@
       <fileFormat>CSS</fileFormat>
     </styleSheet>
   </styleSheets>
-
-  <lineStyles/>
-  <areaFills/>
-  <fonts/>
-
+  <lineStyles />
+  <areaFills />
+  <fonts />
   <viewingGroups>
-    <viewingGroup id="12210">
+    <viewingGroup id="1">
       <description>
+        <language>en</language>
         <name>12210</name>
-        <description></description>
-        <language>eng</language>
+        <description />
       </description>
     </viewingGroup>
   </viewingGroups>
-
-  <foundationMode/>
-  <viewingGroupLayers/>
-  <displayModes/>
-
-  <displayPlanes>
-    <displayPlane id="OverRADAR" order="1">
-      <description>
-        <name>Over radar</name>
-        <description>Content displayed on top of Radar image</description>
-        <language>eng</language>
-      </description>
-    </displayPlane>
-    <displayPlane id="UnderRADAR" order="-1">
-      <description>
-        <name>Under radar</name>
-        <description>Content displayed underneath Radar image</description>
-        <language>eng</language>
-      </description>
-    </displayPlane>
-  </displayPlanes>
-
-  <context/>
-
+  <foundationMode />
+  <viewingGroupLayers />
+  <displayModes />
+  <displayPlanes />
+  <context />
   <rules>
-    <ruleFile id="main">
+    <ruleFile id="1">
       <description>
+        <language />
         <name>main</name>
         <description>main</description>
-        <language>eng</language>
       </description>
       <fileName>main.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>TopLevelTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="attributeRules">
+    <ruleFile id="2">
       <description>
+        <language />
         <name>attributeRules</name>
         <description>attributeRules</description>
-        <language>eng</language>
       </description>
       <fileName>attributeRules.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="simpleLineStyle">
+    <ruleFile id="3">
       <description>
+        <language />
         <name>simpleLineStyle</name>
         <description>simpleLineStyle</description>
-        <language>eng</language>
       </description>
       <fileName>simpleLineStyle.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="textStyle">
+    <ruleFile id="4">
       <description>
+        <language />
         <name>textStyle</name>
         <description>textStyle</description>
-        <language>eng</language>
       </description>
       <fileName>textStyle.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="Default">
+    <ruleFile id="5">
       <description>
+        <language />
         <name>Default</name>
         <description>Default</description>
-        <language>eng</language>
       </description>
       <fileName>Default.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="DataCoverage">
+	<ruleFile id="DataCoverage.xsl">
       <description>
         <name>DataCoverage</name>
         <description>Data Coverage</description>
-        <language>eng</language>
+        <language>en</language>
       </description>
       <fileName>DataCoverage.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="QualityOfNonBathymetricData">
+	<ruleFile id="QualityOfNonBathymetricData.xsl">
       <description>
         <name>QualityOfNonBathymetricData</name>
         <description>Quality Of NonBathymetric Data</description>
-        <language>eng</language>
+        <language>en</language>
       </description>
       <fileName>QualityOfNonBathymetricData.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="InformationArea">
+	<ruleFile id="InformationArea.xsl">
       <description>
         <name>InformationArea</name>
         <description>Information Area</description>
-        <language>eng</language>
+        <language>en</language>
       </description>
-      <fileName>InformationArea.xsl</fileName>
+      <fileName>InformationArea</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
-    </ruleFile>
-    <ruleFile id="VesselTrafficServiceArea">
+    </ruleFile>	
+    <ruleFile id="VesselTrafficServiceArea.xsl">
       <description>
+        <language>en</language>
         <name>VesselTrafficServiceArea</name>
         <description>Vessel Traffic Service Area</description>
-        <language>eng</language>
       </description>
       <fileName>VesselTrafficServiceArea.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="MarineProtectedArea">
+    <ruleFile id="MarineProtectedArea.xsl">
       <description>
+        <language>en</language>
         <name>MarineProtectedArea</name>
         <description>Marine Protected Area</description>
-        <language>eng</language>
       </description>
       <fileName>MarineProtectedArea.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
-    <ruleFile id="RestrictedArea">
+	<ruleFile id="RestrictedArea.xsl">
       <description>
+        <language>en</language>
         <name>RestrictedArea</name>
         <description>Restricted Area</description>
-        <language>eng</language>
       </description>
       <fileName>RestrictedArea.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
-    </ruleFile>
-    <ruleFile id="TextPlacement">
+    </ruleFile>	
+	<ruleFile id="TextPlacement.xsl">
       <description>
+        <language>en</language>
         <name>TextPlacement</name>
         <description>Text Placement</description>
-        <language>eng</language>
       </description>
       <fileName>TextPlacement.xsl</fileName>
       <fileType>Rule</fileType>
@@ -273,5 +249,5 @@
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
   </rules>
-
-</pc:portrayalCatalog>
+  <pcbinfo>name="Marine Protected Area" fieldOfApplication="" scope="" versionDate="" user="" organization=""</pcbinfo>
+</portrayalCatalog>

@@ -9,7 +9,7 @@
       <viewingGroup>36050</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
-      <symbol reference="MPAVTS"/>
+      <symbol reference="MPA_VTS"/>
     </pointInstruction>
     <lineInstruction>
       <featureReference>

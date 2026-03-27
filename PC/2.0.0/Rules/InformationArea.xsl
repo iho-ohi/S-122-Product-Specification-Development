@@ -9,7 +9,7 @@
       <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
-      <symbol reference="MPA_INFARE"/>
+      <symbol reference="MPAInfare"/>
     </pointInstruction>
 	    <lineInstruction>
       <featureReference>

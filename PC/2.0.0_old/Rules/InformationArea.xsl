@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-  <xsl:template match="VesselTrafficServiceArea[@primitive='Surface']" priority="1">
-	<pointInstruction>
+  <xsl:template match="InformationArea[@primitive='Surface']" priority="1">
+    <pointInstruction>
       <featureReference>
         <xsl:value-of select="@id"/>
       </featureReference>
-      <viewingGroup>36050</viewingGroup>
+      <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
-      <symbol reference="MPAVTS"/>
+      <symbol reference="MPA_INFARE"/>
     </pointInstruction>
-    <lineInstruction>
+	    <lineInstruction>
       <featureReference>
         <xsl:value-of select="@id"/>
       </featureReference>
-      <viewingGroup>36050</viewingGroup>
+      <viewingGroup>31020</viewingGroup>
       <displayPlane>OVERRADAR</displayPlane>
       <drawingPriority>15</drawingPriority>
       <xsl:call-template name="simpleLineStyle">
