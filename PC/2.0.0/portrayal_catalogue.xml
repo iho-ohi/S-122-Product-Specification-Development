@@ -70,13 +70,13 @@
   </symbols>
 
   <styleSheets>
-    <styleSheet id="svgStyle">
+    <styleSheet id="daySvgStyle">
       <description>
         <name>Day</name>
         <description>CSS file for day palette</description>
         <language>eng</language>
       </description>
-      <fileName>svgStyle.css</fileName>
+      <fileName>daySvgStyle.css</fileName>
       <fileType>StyleSheet</fileType>
       <fileFormat>CSS</fileFormat>
     </styleSheet>

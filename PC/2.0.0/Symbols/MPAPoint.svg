@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet href="SVGStyle.css" type="text/css"?>
+<?xml-stylesheet href="daySvgStyle.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="4.7mm" height="2.82mm" viewBox="-2.4 -1.41 4.7 2.82">
   <title>MPA_POINT</title>
   <desc>Marine Protected Area Point</desc>
