@@ -8,7 +8,7 @@
       <Description publisher="IHB" creationDate="2019-08-14" source="S52Preslib4.0" format="S100SVG" version="0.1" />
     </S100SVG>
   </metadata>
-  <rect class="symbolBox layout" fill="none" x="-4.32" y="3.54" height="8.54" width="8.58" />
+  <rect class="symbolBox layout" fill="none" x="-4.32" y="-5" height="8.54" width="8.58" />
   <rect class="svgBox layout" fill="none" x="-4.32" y="-5" height="8.54" width="8.58" />
   <circle cx="0" cy="-0.72" r="2.15" class="sl f0 sCHGRN" style="stroke-width:0.32" />
   <circle cx="0.01" cy="-0.66" r="0.59" class="sl f0 sCHGRN" style="stroke-width:0.32" />
