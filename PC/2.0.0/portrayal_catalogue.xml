@@ -273,5 +273,112 @@
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
   </rules>
+  <viewingGroups>
+      <viewingGroup id="26">
+        <description>
+          <name>Text: Geographic Names</name>
+          <description>Names of Anchorages, Bridges, Buildings, Docks, etc.</description>
+          <language>eng</language>
+        </description>
+      </viewingGroup>
+      <!-- A, B - INFORMATION ABOUT THE CHART DISPLAY -->
+      <!-- 21000's: Information about the Chart Display -->
+      <viewingGroup id="21010">
+        <description>
+          <name>Unknown object (magenta question mark)</name>
+          <description>Standard: A, B - Information about the chart display</description>
+          <language>eng</language>
+        </description>
+      </viewingGroup>
 
+      <!-- 31000's: Information about the Chart Display -->
+      <viewingGroup id="31010">
+        <description>
+            <name>Quality of survey, quality of non-bathymetric data, sounding datum, vertical datum</name>
+            <description>Other: A, B - Information about the chart display</description>
+            <language>eng</language>
+        </description>
+      </viewingGroup>
+      <viewingGroup id="31020">
+        <description>
+          <name>information area or nautical publication (M_NPUB)</name>
+          <description>Other: A, B - Information about the chart display</description>
+          <language>eng</language>
+        </description>
+    </viewingGroup>
+    <viewingGroup id="31040">
+      <description>
+        <name>dataCoverage</name>
+        <description>Other: A, B - Information about the chart display</description>
+        <language>eng</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="36050">
+      <description>
+         <name>Contiguous zone (CONZNE), exclusive economic zone (EXEZNE), national territorial area (NATARE), territorial sea (TESARE), territorial sea baseline (STSLNE), administration area (ADMARE)</name>
+         <description>Other: N - Special areas</description>
+         <language>eng</language>
+      </description>
+   </viewingGroup>
+   <!-- Danger highlight and Indication highlights -->
+    <viewingGroup id="53010">
+      <description>
+        <name>Safety Contour Highlight</name>
+        <description>Used to turn on or off the graphical highlighting of alerts triggered by the safety contour.</description>
+        <language>eng</language>
+      </description>
+    </viewingGroup>
+  </viewingGroups>
+
+  <viewingGroupLayers>
+    <viewingGroupLayer id="10">      <!-- S-52: 10 Miscellaneous (Standard) and 101 Alert Highlights -->
+      <description>
+         <name>Miscellaneous (Standard)</name>
+         <description>Standard Display elements</description>
+         <language>eng</language>
+      </description>
+      <viewingGroup>21010</viewingGroup>
+      <viewingGroup>21060</viewingGroup>
+      <viewingGroup>24010</viewingGroup>
+      <viewingGroup>24020</viewingGroup>
+      <viewingGroup>24050</viewingGroup>
+      <viewingGroup>25001</viewingGroup>
+      <viewingGroup>26200</viewingGroup>
+      <viewingGroup>26210</viewingGroup>
+      <viewingGroup>28010</viewingGroup>
+      <viewingGroup>28020</viewingGroup>
+   </viewingGroupLayer>
+
+    <viewingGroupLayer id="18">
+      <description>
+        <name>Miscellaneous (Other)</name>
+        <description>Other Display elements</description>
+        <language>eng</language>
+      </description>
+      <viewingGroup>31010</viewingGroup>
+      <viewingGroup>31020</viewingGroup>
+      <viewingGroup>31040</viewingGroup>
+      <viewingGroup>32010</viewingGroup>
+      <viewingGroup>32030</viewingGroup>
+      <viewingGroup>32050</viewingGroup>
+      <viewingGroup>32070</viewingGroup>
+      <viewingGroup>32200</viewingGroup>
+      <viewingGroup>32220</viewingGroup>
+      <viewingGroup>32240</viewingGroup>
+      <viewingGroup>32250</viewingGroup>
+      <viewingGroup>32270</viewingGroup>
+      <viewingGroup>32400</viewingGroup>
+      <viewingGroup>32410</viewingGroup>
+      <viewingGroup>32440</viewingGroup>
+      <viewingGroup>36010</viewingGroup>
+      <viewingGroup>36020</viewingGroup>
+      <viewingGroup>36040</viewingGroup>
+      <viewingGroup>36050</viewingGroup>
+      <viewingGroup>36060</viewingGroup>
+      <viewingGroup>38010</viewingGroup>
+      <viewingGroup>38030</viewingGroup>
+      <viewingGroup>38200</viewingGroup>
+      <viewingGroup>38210</viewingGroup>
+  </viewingGroupLayer>
+ </viewingGroupLayers>
 </pc:portrayalCatalog>
