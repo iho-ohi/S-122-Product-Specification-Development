@@ -9,21 +9,21 @@
 	<S100:DatasetIdentificationInformation>
 		<S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
 		<S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
-		<S100:productIdentifier>INT.IHO.S-122.1.0.0</S100:productIdentifier>
-		<S100:productEdition>1.0</S100:productEdition>
+		<S100:productIdentifier>INT.IHO.S-122.2.0.0</S100:productIdentifier>
+		<S100:productEdition>2.0</S100:productEdition>
 		<S100:applicationProfile>1</S100:applicationProfile>
-		<S100:datasetFileIdentifier>122TESTDATASET.000</S100:datasetFileIdentifier>
+		<S100:datasetFileIdentifier>122TESTDATASET.gml</S100:datasetFileIdentifier>
 		<S100:datasetTitle>This File is created by KRISO Viewer.</S100:datasetTitle>
-		<S100:datasetReferenceDate></S100:datasetReferenceDate>
+		<S100:datasetReferenceDate>20260908</S100:datasetReferenceDate>
 		<S100:datasetLanguage>eng</S100:datasetLanguage>
-		<S100:datasetAbstract></S100:datasetAbstract>
+		<S100:datasetAbstract>Required abstract definition</S100:datasetAbstract>
 		<S100:datasetTopicCategory>utilitiesCommunication</S100:datasetTopicCategory>
 		<S100:datasetPurpose>base</S100:datasetPurpose>
 		<S100:updateNumber>0</S100:updateNumber>
 	</S100:DatasetIdentificationInformation>
 	<members>
 		<MarineProtectedArea gml:id="FEATURE_ID_0003">
-			<interoperabilityIdentifier></interoperabilityIdentifier>
+
 			<categoryOfMarineProtectedArea></categoryOfMarineProtectedArea>
 			<jurisdiction></jurisdiction>
 			<geometry>
@@ -43,7 +43,7 @@
 			</geometry>
 		</MarineProtectedArea>
 		<RestrictedArea gml:id="FEATURE_ID_0001">
-			<interoperabilityIdentifier></interoperabilityIdentifier>
+
 			<restriction></restriction>
 			<geometry>
 				<S100:surfaceProperty>
@@ -62,23 +62,23 @@
 			</geometry>
 		</RestrictedArea>
 		<MarineProtectedArea gml:id="FEATURE_ID_0004">
-			<interoperabilityIdentifier></interoperabilityIdentifier>
+
 			<categoryOfMarineProtectedArea></categoryOfMarineProtectedArea>
 			<jurisdiction></jurisdiction>
 			<geometry>
 				<S100:curveProperty>
 					<gml:Curve srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="c1">
 						<gml:segments>
-							<gml:LineString>
+							<gml:LineStringSegment>
 								<gml:posList>-32.5214951 60.9779252 -32.5214333 60.9804356 -32.5240439 60.9804251 -32.5239822 60.9779043 </gml:posList>
-							</gml:LineString>
+							</gml:LineStringSegment>
 						</gml:segments>
 					</gml:Curve>
 				</S100:curveProperty>
 			</geometry>
 		</MarineProtectedArea>
 		<VesselTrafficServiceArea gml:id="FEATURE_ID_0002">
-			<interoperabilityIdentifier></interoperabilityIdentifier>
+
 			<categoryOfVesselTrafficService></categoryOfVesselTrafficService>
 			<geometry>
 				<S100:surfaceProperty>
