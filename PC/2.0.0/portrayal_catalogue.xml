@@ -206,7 +206,7 @@
 		</description>
 		<fileName>Default.lua</fileName>
 		<fileType>Rule</fileType>
-		<fileFormat>lua</fileFormat>
+		<fileFormat>LUA</fileFormat>
 		<ruleType>SubTemplate</ruleType>
 	</ruleFile>
     <ruleFile id="DataCoverage">
