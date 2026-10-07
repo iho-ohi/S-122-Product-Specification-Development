@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<colorProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s100ColorProfile.xsd">
-  <colors>
+<cp:colorProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cp="http://www.iho.int/S100ColorProfile/5.1">
+    <colors>
     <color token="NODTA" name="grey">
       <description>No data color</description>
     </color>
@@ -201,12 +201,6 @@
     </color>
     <color token="MARWH" name="white">
       <description>mariner white</description>
-    </color>
-    <color name ="00011" token="00011">
-      <description>00011</description>
-    </color>
-    <color name ="00015" token="00015">
-      <description>00015</description>
     </color>
   </colors>
   <palette name="Day" css="daySvgStyle.css">
@@ -1148,33 +1142,5 @@
         <blue>119</blue>
       </srgb>
     </item>
-    <item token="00011">
-      <cie>
-        <xyL>
-          <x>0.30039</x>
-          <y>0.17041</y>
-          <L>20.068</L>
-        </xyL>
-      </cie>
-      <srgb>
-        <red>192</red>
-        <green>69</green>
-        <blue>209</blue>
-      </srgb>
-    </item>
-    <item token="00015">
-      <cie>
-        <xyL>
-          <x>0.31273</x>
-          <y>0.32902</y>
-          <L>100</L>
-        </xyL>
-      </cie>
-      <srgb>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-      </srgb>
-    </item>
   </palette>
-</colorProfile>
+</cp:colorProfile>
